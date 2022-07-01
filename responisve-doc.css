@@ -1,0 +1,19 @@
+.img__container{
+    display: none;
+}
+
+.nav__container{
+    display: none;
+}
+.header__container{
+    width: 100%;
+}
+.nav-opening{
+    position: absolute;
+    visibility: hidden;
+}
+
+.img__container-responsive{
+    position: absolute;
+    visibility: hidden;
+}
