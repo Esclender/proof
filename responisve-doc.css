@@ -5,15 +5,35 @@
 .nav__container{
     display: none;
 }
-.header__container{
-    width: 100%;
+
+.nav__links-responsive{
+    display: flex;
+    text-align: end;
+    flex-direction: column;
+    list-style: none;
+    padding: 1rem;
+    /* background-color: var(--main-bg-color); */
 }
-.nav-opening{
-    position: absolute;
-    visibility: hidden;
+
+.nav__links-responsive li{
+    margin-top: .5rem;
+}
+
+
+
+.opening-container{
+    display: block;
+    text-align: end;
+    font-size: 2rem;
+    position: relative;
+}
+
+.img__container-responsive img{
+   width: 5rem;
 }
 
 .img__container-responsive{
+    display: flex;
+    justify-content: flex-start;
     position: absolute;
-    visibility: hidden;
 }
