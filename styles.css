@@ -31,7 +31,9 @@ html{
    
 }
 
-
+.opening-container{
+    display: none;
+}
 
 .nav__bar{
     background-color: var(--main-bg-color);
