@@ -5,6 +5,11 @@
 .nav__container{
     display: none;
 }
+.nav__container-responsive{
+    background-color: var(--main-bg-color);
+    
+    
+}
 
 .nav__links-responsive{
     display: flex;
@@ -12,21 +17,29 @@
     flex-direction: column;
     list-style: none;
     padding: 1rem;
-    /* background-color: var(--main-bg-color); */
+   
 }
 
 .nav__links-responsive li{
     margin-top: .5rem;
 }
 
-
-
 .opening-container{
     display: block;
     text-align: end;
     font-size: 2rem;
+    padding: .5rem;
     position: relative;
+    background-color: var(--main-bg-color);
 }
+
+.opening-container:hover + .nav__container-responsive{
+
+    display: none;
+
+}
+
+
 
 .img__container-responsive img{
    width: 5rem;
@@ -36,4 +49,5 @@
     display: flex;
     justify-content: flex-start;
     position: absolute;
+    top: -.6rem;
 }
